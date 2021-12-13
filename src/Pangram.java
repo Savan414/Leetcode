@@ -1,11 +1,5 @@
 public class Pangram {
 
-    public static void main (String[] args){
-        String input = "qwertyuiopasdfghjkklzxcvbnm";
-
-        System.out.println(checkIfPangram(input));
-
-    }
 
     public static boolean checkIfPangram(String sentence) {
 
